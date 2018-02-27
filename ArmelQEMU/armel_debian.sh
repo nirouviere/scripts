@@ -3,7 +3,9 @@
 usage () {
 	cat << EOF >&1
 
-usage: $0 [-l]
+usage: $0 OPTIONS
+
+OPTIONS:
     -l    Launch VM
     -i    Install VM (Basicallly, just download qcow2, initramfs and kernel from 
           https://people.debian.org/~aurel32/qemu/armel/
