@@ -51,6 +51,12 @@ launch () {
 		-append "root=/dev/sda1"
 }
 
+
+if [[ "$#" == 0 ]]; then
+	usage
+	exit 1
+fi
+
 case "$1" in
 	"-l")
 		launch
