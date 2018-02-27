@@ -70,13 +70,9 @@ case "$1" in
 		usage
 		exit 0
 		;;
-	"*")
-		usage
-		exit 1
-		;;
-	"")
+	*)
+		echo "Unknown option: $1"
 		usage
 		exit 1
 		;;
 esac
-
