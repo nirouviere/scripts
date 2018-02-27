@@ -1,0 +1,3 @@
+ArmelQEMU/*.qcow2
+ArmelQEMU/initrd.img*
+ArmelQEMU/vmlinuz_*
