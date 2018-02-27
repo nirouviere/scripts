@@ -23,7 +23,7 @@ install () {
 
 	ARMEL_QCOW2_DEFAULT="debian_DEFAULT.qcow2"
 	ARMEL_KERNEL_DEFAULT="vmlinuz_DEFAULT"
-	ARMEL_INITRAMFS_DEFAULT="initrd.img-DEFAULT"
+	ARMEL_INITRAMFS_DEFAULT="initrd.img_DEFAULT"
 
 	if [[ ! -f "${ARMEL_QCOW2_DEFAULT}" ]]; then
 		echo "[+++] ${ARMEL_QCOW2} not found. Downloading"
